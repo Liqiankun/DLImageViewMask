@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631590A51C9BB41D00F904AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631590A41C9BB41D00F904AF /* main.m */; };
+		631590A81C9BB41D00F904AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631590A71C9BB41D00F904AF /* AppDelegate.m */; };
+		631590AB1C9BB41D00F904AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631590AA1C9BB41D00F904AF /* ViewController.m */; };
+		631590AE1C9BB41D00F904AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631590AC1C9BB41D00F904AF /* Main.storyboard */; };
+		631590B01C9BB41D00F904AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631590AF1C9BB41D00F904AF /* Assets.xcassets */; };
+		631590B31C9BB41D00F904AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631590B11C9BB41D00F904AF /* LaunchScreen.storyboard */; };
+		631590BE1C9BB41D00F904AF /* MaskImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631590BD1C9BB41D00F904AF /* MaskImageTests.m */; };
+		631590C91C9BB41D00F904AF /* MaskImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631590C81C9BB41D00F904AF /* MaskImageUITests.m */; };
+		631590DC1C9BCA5000F904AF /* UIImageView+maskImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 631590DB1C9BCA5000F904AF /* UIImageView+maskImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631590BA1C9BB41D00F904AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631590981C9BB41D00F904AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315909F1C9BB41D00F904AF;
+			remoteInfo = MaskImage;
+		};
+		631590C51C9BB41D00F904AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631590981C9BB41D00F904AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6315909F1C9BB41D00F904AF;
+			remoteInfo = MaskImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631590A01C9BB41D00F904AF /* MaskImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631590A41C9BB41D00F904AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		631590A61C9BB41D00F904AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		631590A71C9BB41D00F904AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		631590A91C9BB41D00F904AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		631590AA1C9BB41D00F904AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		631590AD1C9BB41D00F904AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		631590AF1C9BB41D00F904AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631590B21C9BB41D00F904AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631590B41C9BB41D00F904AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631590B91C9BB41D00F904AF /* MaskImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631590BD1C9BB41D00F904AF /* MaskImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskImageTests.m; sourceTree = "<group>"; };
+		631590BF1C9BB41D00F904AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631590C41C9BB41D00F904AF /* MaskImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaskImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631590C81C9BB41D00F904AF /* MaskImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskImageUITests.m; sourceTree = "<group>"; };
+		631590CA1C9BB41D00F904AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631590DA1C9BCA5000F904AF /* UIImageView+maskImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+maskImage.h"; sourceTree = "<group>"; };
+		631590DB1C9BCA5000F904AF /* UIImageView+maskImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+maskImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6315909D1C9BB41D00F904AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631590B61C9BB41D00F904AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631590C11C9BB41D00F904AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631590971C9BB41D00F904AF = {
+			isa = PBXGroup;
+			children = (
+				631590A21C9BB41D00F904AF /* MaskImage */,
+				631590BC1C9BB41D00F904AF /* MaskImageTests */,
+				631590C71C9BB41D00F904AF /* MaskImageUITests */,
+				631590A11C9BB41D00F904AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631590A11C9BB41D00F904AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631590A01C9BB41D00F904AF /* MaskImage.app */,
+				631590B91C9BB41D00F904AF /* MaskImageTests.xctest */,
+				631590C41C9BB41D00F904AF /* MaskImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631590A21C9BB41D00F904AF /* MaskImage */ = {
+			isa = PBXGroup;
+			children = (
+				631590D91C9BCA5000F904AF /* MaskImage */,
+				631590A61C9BB41D00F904AF /* AppDelegate.h */,
+				631590A71C9BB41D00F904AF /* AppDelegate.m */,
+				631590A91C9BB41D00F904AF /* ViewController.h */,
+				631590AA1C9BB41D00F904AF /* ViewController.m */,
+				631590AC1C9BB41D00F904AF /* Main.storyboard */,
+				631590AF1C9BB41D00F904AF /* Assets.xcassets */,
+				631590B11C9BB41D00F904AF /* LaunchScreen.storyboard */,
+				631590B41C9BB41D00F904AF /* Info.plist */,
+				631590A31C9BB41D00F904AF /* Supporting Files */,
+			);
+			path = MaskImage;
+			sourceTree = "<group>";
+		};
+		631590A31C9BB41D00F904AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				631590A41C9BB41D00F904AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		631590BC1C9BB41D00F904AF /* MaskImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				631590BD1C9BB41D00F904AF /* MaskImageTests.m */,
+				631590BF1C9BB41D00F904AF /* Info.plist */,
+			);
+			path = MaskImageTests;
+			sourceTree = "<group>";
+		};
+		631590C71C9BB41D00F904AF /* MaskImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631590C81C9BB41D00F904AF /* MaskImageUITests.m */,
+				631590CA1C9BB41D00F904AF /* Info.plist */,
+			);
+			path = MaskImageUITests;
+			sourceTree = "<group>";
+		};
+		631590D91C9BCA5000F904AF /* MaskImage */ = {
+			isa = PBXGroup;
+			children = (
+				631590DA1C9BCA5000F904AF /* UIImageView+maskImage.h */,
+				631590DB1C9BCA5000F904AF /* UIImageView+maskImage.m */,
+			);
+			path = MaskImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6315909F1C9BB41D00F904AF /* MaskImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631590CD1C9BB41D00F904AF /* Build configuration list for PBXNativeTarget "MaskImage" */;
+			buildPhases = (
+				6315909C1C9BB41D00F904AF /* Sources */,
+				6315909D1C9BB41D00F904AF /* Frameworks */,
+				6315909E1C9BB41D00F904AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaskImage;
+			productName = MaskImage;
+			productReference = 631590A01C9BB41D00F904AF /* MaskImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631590B81C9BB41D00F904AF /* MaskImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631590D01C9BB41D00F904AF /* Build configuration list for PBXNativeTarget "MaskImageTests" */;
+			buildPhases = (
+				631590B51C9BB41D00F904AF /* Sources */,
+				631590B61C9BB41D00F904AF /* Frameworks */,
+				631590B71C9BB41D00F904AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631590BB1C9BB41D00F904AF /* PBXTargetDependency */,
+			);
+			name = MaskImageTests;
+			productName = MaskImageTests;
+			productReference = 631590B91C9BB41D00F904AF /* MaskImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631590C31C9BB41D00F904AF /* MaskImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631590D31C9BB41D00F904AF /* Build configuration list for PBXNativeTarget "MaskImageUITests" */;
+			buildPhases = (
+				631590C01C9BB41D00F904AF /* Sources */,
+				631590C11C9BB41D00F904AF /* Frameworks */,
+				631590C21C9BB41D00F904AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631590C61C9BB41D00F904AF /* PBXTargetDependency */,
+			);
+			name = MaskImageUITests;
+			productName = MaskImageUITests;
+			productReference = 631590C41C9BB41D00F904AF /* MaskImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631590981C9BB41D00F904AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DavidLee;
+				TargetAttributes = {
+					6315909F1C9BB41D00F904AF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					631590B81C9BB41D00F904AF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6315909F1C9BB41D00F904AF;
+					};
+					631590C31C9BB41D00F904AF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6315909F1C9BB41D00F904AF;
+					};
+				};
+			};
+			buildConfigurationList = 6315909B1C9BB41D00F904AF /* Build configuration list for PBXProject "MaskImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631590971C9BB41D00F904AF;
+			productRefGroup = 631590A11C9BB41D00F904AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6315909F1C9BB41D00F904AF /* MaskImage */,
+				631590B81C9BB41D00F904AF /* MaskImageTests */,
+				631590C31C9BB41D00F904AF /* MaskImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6315909E1C9BB41D00F904AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631590B31C9BB41D00F904AF /* LaunchScreen.storyboard in Resources */,
+				631590B01C9BB41D00F904AF /* Assets.xcassets in Resources */,
+				631590AE1C9BB41D00F904AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631590B71C9BB41D00F904AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631590C21C9BB41D00F904AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6315909C1C9BB41D00F904AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631590DC1C9BCA5000F904AF /* UIImageView+maskImage.m in Sources */,
+				631590AB1C9BB41D00F904AF /* ViewController.m in Sources */,
+				631590A81C9BB41D00F904AF /* AppDelegate.m in Sources */,
+				631590A51C9BB41D00F904AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631590B51C9BB41D00F904AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631590BE1C9BB41D00F904AF /* MaskImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631590C01C9BB41D00F904AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631590C91C9BB41D00F904AF /* MaskImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631590BB1C9BB41D00F904AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315909F1C9BB41D00F904AF /* MaskImage */;
+			targetProxy = 631590BA1C9BB41D00F904AF /* PBXContainerItemProxy */;
+		};
+		631590C61C9BB41D00F904AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6315909F1C9BB41D00F904AF /* MaskImage */;
+			targetProxy = 631590C51C9BB41D00F904AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		631590AC1C9BB41D00F904AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631590AD1C9BB41D00F904AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		631590B11C9BB41D00F904AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631590B21C9BB41D00F904AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631590CB1C9BB41D00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		631590CC1C9BB41D00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631590CE1C9BB41D00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaskImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.MaskImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		631590CF1C9BB41D00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaskImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.MaskImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		631590D11C9BB41D00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaskImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.MaskImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskImage.app/MaskImage";
+			};
+			name = Debug;
+		};
+		631590D21C9BB41D00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MaskImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.MaskImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaskImage.app/MaskImage";
+			};
+			name = Release;
+		};
+		631590D41C9BB41D00F904AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaskImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.MaskImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaskImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		631590D51C9BB41D00F904AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MaskImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = david.com.cn.MaskImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MaskImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6315909B1C9BB41D00F904AF /* Build configuration list for PBXProject "MaskImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631590CB1C9BB41D00F904AF /* Debug */,
+				631590CC1C9BB41D00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631590CD1C9BB41D00F904AF /* Build configuration list for PBXNativeTarget "MaskImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631590CE1C9BB41D00F904AF /* Debug */,
+				631590CF1C9BB41D00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		631590D01C9BB41D00F904AF /* Build configuration list for PBXNativeTarget "MaskImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631590D11C9BB41D00F904AF /* Debug */,
+				631590D21C9BB41D00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		631590D31C9BB41D00F904AF /* Build configuration list for PBXNativeTarget "MaskImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631590D41C9BB41D00F904AF /* Debug */,
+				631590D51C9BB41D00F904AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631590981C9BB41D00F904AF /* Project object */;
+}
