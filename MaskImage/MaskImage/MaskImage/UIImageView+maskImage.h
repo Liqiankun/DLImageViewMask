@@ -11,5 +11,5 @@
 @interface UIImageView (maskImage)
 
 -(void)maskImageWithSize:(CGSize)size;
-
+-(void)setSingleCornerRadius:(CGFloat)cornerRadius ByRoundingCorners:(UIRectCorner)rect;
 @end

@@ -37,4 +37,16 @@
     self.layer.mask = mask;
 }
 
+
+-(void)setSingleCornerRadius:(CGFloat)cornerRadius ByRoundingCorners:(UIRectCorner)rect
+{
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:rect cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+    
+    self.layer.mask = maskLayer;
+    
+}
+
 @end
